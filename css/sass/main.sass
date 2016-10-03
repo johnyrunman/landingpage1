@@ -1,13 +1,40 @@
 @import "bourbon/bourbon"
 
+$text-color: #333
+$dark-color: #000
+$red-colot: #981818
+$blue-color: #003469
+$green-color: #67bc5c
+
 body
-	font-family: "Raleway", sans-serif
+	font-family: "RobotoRegular", sans-serif
 	font-weight: normal
-	font-size: 14px
+	font-size: 16px
+	color: $text-color
 	min-width: 320px
 	position: relative
-	line-height: 1.42857
+	line-height: 1.6
 	-webkit-font-smoothing: antialised
+
+h1
+	color: #fff
+	font-size: 60px
+	line-height: 56px
+	font-weight: bold
+	font-family: "CleanvertisingLight", sans-serif
+
+section 
+	padding: 58px 0 68px 0
+	&.d_dark
+		h2, h3, p
+			color:#fff
+	h2
+		color: $blue-color
+		font-size: 50px
+		line-height: 56px
+		font-size: 50px
+		margin-bottom: 50px
+
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
@@ -18,3 +45,9 @@ body textarea:required:valid
 
 .hidden
 	display: none
+
+header
+	min-height: 640px
+	background-image: url(../img/top_bg.jpg)
+	background-position: top center
+	background-size: cover
