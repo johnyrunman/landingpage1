@@ -12,12 +12,21 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.top_phone, .logo {
+		text-align: center;
+	}
 
+	.logo {
+		margin-bottom: 15px;
+	}
+	
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.top_phone .tab_item {
+		font-size: 30px;
+	}
 }
 
 /* Custom, iPhone Retina */

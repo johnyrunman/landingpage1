@@ -52,4 +52,36 @@ header {
   background-image: url(../img/auto_bg.jpg);
   background-position: top center;
   background-size: cover;
+  color: #fff;
+  padding-top: 32px;
+}
+
+.logo {
+  font-size: 40px;
+  font-family: "RobotoBold", sans-serif;
+  font-face: bold;
+  text-shadow: 1px 1px 0px #969696;
+}
+
+.top_phone {
+  text-align: right;
+}
+
+.top_phone .wrapper .tab {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.top_phone .wrapper .active {
+  text-decoration: underline;
+}
+
+.top_phone .tab_item {
+  display: none;
+  font-size: 34px;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.top_phone .tab_item:first-child {
+  display: block;
 }
