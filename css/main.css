@@ -68,6 +68,14 @@ header {
   text-align: right;
 }
 
+.tab_item {
+  display: none;
+}
+
+.tab_item:first-child {
+  display: block;
+}
+
 .top_phone .wrapper .tab {
   text-transform: uppercase;
   cursor: pointer;
@@ -95,4 +103,29 @@ header {
   margin: 5px 0 0;
   font-family: "CleanvertisingLight", sans-serif;
   font-size: 30px;
+}
+
+.tabs_header {
+  margin-top: 25px;
+}
+
+.tabs_header .tabs span {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 15px 18px;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  float: left;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.tabs_header .tabs span.active {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+
+.tab_content {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px 18px;
 }

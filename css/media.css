@@ -30,6 +30,9 @@
 	.top_header {
 		margin-top: 20px;
 	}
+	.top_header h1 {
+		line-height: 40px;
+	}
 }
 
 /* Custom, iPhone Retina */
