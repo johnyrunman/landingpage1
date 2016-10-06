@@ -68,14 +68,6 @@ header {
   text-align: right;
 }
 
-.tab_item {
-  display: none;
-}
-
-.tab_item:first-child {
-  display: block;
-}
-
 .top_phone .wrapper .tab {
   text-transform: uppercase;
   cursor: pointer;
@@ -109,6 +101,27 @@ header {
   margin-top: 25px;
 }
 
+.tabs_header ul, .tabs_header li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs_header li {
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tabs_header i {
+  position: absolute;
+  left: 5px;
+  top: 14px;
+  line-height: 0;
+  color: #6f6a67;
+  font-size: 24px;
+}
+
 .tabs_header .tabs span {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.25);
@@ -128,4 +141,8 @@ header {
 .tab_content {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 15px 18px;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 18px;
 }

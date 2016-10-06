@@ -64,11 +64,6 @@ header
 .top_phone
 	text-align: right;
 
-.tab_item
-	display: none;
-.tab_item:first-child
-	display: block
-
 .top_phone .wrapper .tab
 	text-transform: uppercase;
 	cursor: pointer;
@@ -88,22 +83,43 @@ header
 		font-family: "CleanvertisingLight", sans-serif
 		font-size: 30px;
 
-.tabs_header
-	margin-top: 25px;
-	.tabs
-		span
-			display: inline-block
-			background-color: rgba(255,255,255,.25)
-			padding: 15px 18px
-			text-transform: uppercase;
-			+transition(all .25s ease)
-			cursor: pointer
-			float: left
-			font-family: "RobotoBold", sans-serif;
-			&.active
-				background-color: rgba(255,255,255,.6);
-				color: black
+.tabs_header 
+  margin-top: 25px;
+  ul, li
+  	list-style-type: none
+  	margin: 0
+  	padding: 0
+  li
+  	padding-left: 40px
+  	position: relative
+  	margin-bottom: 10px
+  i
+  	position: absolute
+  	left: 5px
+  	top: 14px
+  	line-height: 0
+  	color: #6f6a67
+  	font-size: 24px
+
+
+.tabs_header .tabs span
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 15px 18px;
+  text-transform: uppercase;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  float: left;
+  font-family: "RobotoBold", sans-serif;
+
+.tabs_header .tabs span.active
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
 
 .tab_content
-	background-color: rgba(255,255,255,.6);
-	padding: 15px 18px
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px 18px;
+  text-transform: uppercase
+  color: #000
+  font-family: "RobotoBold", sans-serif;
+  font-size: 18px
