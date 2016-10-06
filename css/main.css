@@ -194,3 +194,31 @@ a.button {
   color: #fff;
   text-decoration: none;
 }
+
+.s_teaser {
+  background-color: #c6d8ee;
+  background-image: linear-gradient(#c6d8ee, #e8eff7);
+  color: #003469;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+.s_teaser span {
+  font-size: 16px;
+  display: block;
+}
+
+.s_teaser i {
+  font-size: 55px;
+}
+
+.s_teaser strong {
+  font-weight: normal;
+  font-size: 23px;
+  display: block;
+}
+
+.teaser_icon, .teaser_description {
+  display: inline-block;
+}
