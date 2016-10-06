@@ -33,6 +33,9 @@
 	.top_header h1 {
 		line-height: 40px;
 	}
+	.button_wrap{
+		text-align: center;
+	}
 }
 
 /* Custom, iPhone Retina */
