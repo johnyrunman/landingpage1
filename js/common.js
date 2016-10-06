@@ -17,7 +17,7 @@ $(".top_phone .wrapper .tab").click(function() {
 $(".tabs_header .tab_item").not(":first").hide();
 $(".tabs_header .wrapper .tab").click(function() {
 	$(".tabs_header .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-	$(".tab_item").hide().eq($(this).index()).fadeIn()
+	$(".tabs_header .tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
 	//Цели для Яндекс.Метрики и Google Analytics

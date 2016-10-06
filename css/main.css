@@ -89,6 +89,7 @@ header {
 
 .top_header {
   margin-top: 70px;
+  text-shadow: 1px 1px 0px #969696;
 }
 
 .top_header h2 {
@@ -139,10 +140,43 @@ header {
 }
 
 .tab_content {
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 15px 18px;
+  padding: 15px 18px 20px;
   text-transform: uppercase;
   color: #000;
   font-family: "RobotoBold", sans-serif;
   font-size: 18px;
+}
+
+.top_phone .tab_content {
+  color: #fff;
+  padding: 0;
+}
+
+.tabs_header .tab_content {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 32px;
+  background-color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "RobotoRegular", sans-serif;
+}
+
+.button_wrap {
+  text-align: right;
+}
+
+a.button {
+  color: #fff;
+  text-decoration: none;
 }

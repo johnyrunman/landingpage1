@@ -5,6 +5,9 @@ $dark-color: #000
 $red-colot: #981818
 $blue-color: #003469
 $green-color: #67bc5c
+$font_regular: "RobotoRegular", sans-serif
+$font_bold: "RobotoBold", sans-serif
+$font_clean: "CleanvertisingLight", sans-serif
 
 body
 	font-family: "RobotoRegular", sans-serif
@@ -78,6 +81,7 @@ header
 
 .top_header
 	margin-top: 70px;
+	text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
 	h2
 		margin: 5px 0 0;
 		font-family: "CleanvertisingLight", sans-serif
@@ -117,9 +121,37 @@ header
   color: black;
 
 .tab_content
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 15px 18px;
+  padding: 15px 18px 20px
   text-transform: uppercase
   color: #000
   font-family: "RobotoBold", sans-serif;
   font-size: 18px
+
+.top_phone .tab_content
+ 	color: #fff
+ 	padding: 0
+
+.tabs_header .tab_content
+	background-color: rgba(255, 255, 255, 0.6);
+
+.button
+	border: none
+	cursor: pointer
+	display: inline-block
+	height: 46px
+	line-height: 46px
+	padding: 0 32px
+	background-color: #000
+	text-transform: uppercase
+	text-align: center
+	color: #fff
+	border-radius: 5px
+	font-size: 16px
+	font-family: $font_regular
+
+.button_wrap
+	text-align: right
+
+a.button
+	color: #fff
+	text-decoration: none
