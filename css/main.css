@@ -55,6 +55,7 @@ header {
   background-size: cover;
   color: #fff;
   padding-top: 32px;
+  padding-bottom: 40px;
 }
 
 .logo {
@@ -170,6 +171,19 @@ header {
   border-radius: 5px;
   font-size: 16px;
   font-family: "RobotoRegular", sans-serif;
+}
+
+.button.btn_red {
+  background-color: #981818;
+}
+
+.button.btn_green {
+  background-color: #67bc5c;
+}
+
+.button.btn_white {
+  background-color: #fff;
+  color: #000;
 }
 
 .button_wrap {
