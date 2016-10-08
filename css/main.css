@@ -227,3 +227,12 @@ h3 {
   text-align: center;
   font-weight: normal;
 }
+
+.profi_icon, .profi_description {
+  display: inline-block;
+}
+
+.profi_icon {
+  color: #981818;
+  font-size: 50px;
+}
