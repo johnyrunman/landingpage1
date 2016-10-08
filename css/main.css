@@ -21,11 +21,9 @@ h1 {
 section {
   padding: 58px 0 68px 0;
 }
-
 section.d_dark h2, section.d_dark h3, section.d_dark p {
   color: #fff;
 }
-
 section h2 {
   color: #003469;
   font-size: 50px;
@@ -92,7 +90,6 @@ header {
   margin-top: 70px;
   text-shadow: 1px 1px 0px #969696;
 }
-
 .top_header h2 {
   margin: 5px 0 0;
   font-family: "CleanvertisingLight", sans-serif;
@@ -102,19 +99,16 @@ header {
 .tabs_header {
   margin-top: 25px;
 }
-
 .tabs_header ul, .tabs_header li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 .tabs_header li {
   padding-left: 40px;
   position: relative;
   margin-bottom: 10px;
 }
-
 .tabs_header i {
   position: absolute;
   left: 5px;
@@ -172,15 +166,12 @@ header {
   font-size: 16px;
   font-family: "RobotoBold", sans-serif;
 }
-
 .button.btn_red {
   background-color: #981818;
 }
-
 .button.btn_green {
   background-color: #67bc5c;
 }
-
 .button.btn_white {
   background-color: #fff;
   color: #000;
@@ -204,16 +195,14 @@ a.button {
   padding: 40px 0;
   text-align: center;
 }
-
 .s_teaser span {
   font-size: 18px;
   display: block;
 }
-
 .s_teaser i {
   font-size: 70px;
+  margin-right: 10px;
 }
-
 .s_teaser strong {
   font-weight: normal;
   font-size: 26px;
