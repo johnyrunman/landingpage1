@@ -114,7 +114,7 @@ header {
   left: 5px;
   top: 14px;
   line-height: 0;
-  color: #6f6a67;
+  color: #003469;
   font-size: 24px;
 }
 
@@ -213,9 +213,17 @@ a.button {
 
 .teaser_icon, .teaser_description {
   display: inline-block;
-  vertical-align: bottom;
 }
 
 .s_teaser .row > div:nth-child(1) i {
   color: #003469;
+}
+
+h3 {
+  margin: 0;
+  font-family: "CleanvertisingLight", sans-serif;
+  font-size: 30px;
+  color: #003469;
+  text-align: center;
+  font-weight: normal;
 }
