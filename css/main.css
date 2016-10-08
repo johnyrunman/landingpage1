@@ -211,7 +211,7 @@ a.button {
 }
 
 .s_teaser i {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .s_teaser strong {
@@ -222,4 +222,5 @@ a.button {
 
 .teaser_icon, .teaser_description {
   display: inline-block;
+  vertical-align: bottom;
 }
