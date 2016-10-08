@@ -172,16 +172,25 @@ a.button
 	padding: 40px 0
 	text-align: center
 	span
-		font-size: 18px
+		font-size: 20px
 		display: block
+		line-height: 20px
 	i
 		font-size: 70px
-		margin-right: 10px
+		margin-right: 6px
 	strong
 		font-weight: normal
-		font-size: 26px
+		font-size: 28px
 		display: block
+		line-height: 28px
 
 .teaser_icon, .teaser_description
 	display: inline-block
 	vertical-align: bottom
+
+
+//Таким образом задается стиль для первого элемента контейнера див с_тизер
+.s_teaser .row
+	> div:nth-child(1)
+		i
+			color: $blue_color

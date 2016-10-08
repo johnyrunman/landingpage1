@@ -196,20 +196,26 @@ a.button {
   text-align: center;
 }
 .s_teaser span {
-  font-size: 18px;
+  font-size: 20px;
   display: block;
+  line-height: 20px;
 }
 .s_teaser i {
   font-size: 70px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .s_teaser strong {
   font-weight: normal;
-  font-size: 26px;
+  font-size: 28px;
   display: block;
+  line-height: 28px;
 }
 
 .teaser_icon, .teaser_description {
   display: inline-block;
   vertical-align: bottom;
+}
+
+.s_teaser .row > div:nth-child(1) i {
+  color: #003469;
 }
