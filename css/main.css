@@ -263,3 +263,18 @@ p strong {
   font-family: "RobotoBold", sans-serif;
   font-weight: normal;
 }
+
+form {
+  background-color: #f7f7f7;
+  padding: 25px;
+  border: #67bc5c 5px solid;
+  border-radius: 5px;
+}
+form h2 {
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  line-height: 22px;
+}
