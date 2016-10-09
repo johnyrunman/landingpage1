@@ -222,7 +222,7 @@ a.button {
 h3 {
   margin: 0;
   font-family: "CleanvertisingLight", sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   color: #003469;
   text-align: center;
   font-weight: normal;
@@ -230,9 +230,21 @@ h3 {
 
 .profi_icon, .profi_description {
   display: inline-block;
+  color: #981818;
 }
 
 .profi_icon {
-  color: #981818;
-  font-size: 50px;
+  font-size: 100px;
+}
+
+.profi_description span {
+  font-size: 30px;
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: bold;
+}
+
+.profi_description strong {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
 }
