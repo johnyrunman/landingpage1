@@ -296,12 +296,17 @@ input, select {
   width: 100%;
   text-indent: 10px;
   font-size: 20px;
-  color: #000;
 }
 input:focus, select:focus {
   box-shadow: #67bc5c 0 0 0 3px;
   border-radius: 3px;
   border-color: #67bc5c;
+}
+
+select, input {
+  background-color: url("img/arrow.png");
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 form .button_wrap {
