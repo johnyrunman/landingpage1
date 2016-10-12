@@ -303,13 +303,13 @@ input:focus, select:focus {
   border-color: #67bc5c;
 }
 
-select, input {
-  background-color: url("img/arrow.png");
-  background-position: right center;
-  background-repeat: no-repeat;
-}
-
 form .button_wrap {
   text-align: center;
   margin: 30px 0 10px 0;
+}
+
+.test {
+  background-image: url(../img/auto_bg.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
 }
