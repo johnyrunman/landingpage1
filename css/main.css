@@ -301,6 +301,7 @@ input:focus, select:focus {
   box-shadow: #67bc5c 0 0 0 3px;
   border-radius: 3px;
   border-color: #67bc5c;
+  outline: none;
 }
 
 form .button_wrap {
@@ -313,4 +314,6 @@ form .button_wrap {
   background-position: right center;
   background-repeat: no-repeat;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
