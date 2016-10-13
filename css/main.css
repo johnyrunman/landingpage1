@@ -265,6 +265,7 @@ p strong {
 }
 
 form {
+  margin-top: 40px;
   background-color: #f7f7f7;
   padding: 25px;
   border: #67bc5c 5px solid;
@@ -316,4 +317,8 @@ form .button_wrap {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.s_reviews {
+  background-color: #0099d2;
 }
