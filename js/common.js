@@ -5,6 +5,8 @@ $(document).ready(function() {
 		horizontalOffset: 40
 	});
 
+	$(".carousel").owlCarousel();
+
 	function wResize() {
 		$("header").css("min-height", $(window).height())
 	};
