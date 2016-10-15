@@ -21,8 +21,12 @@ h1 {
 section {
   padding: 58px 0 68px 0;
 }
-section.d_dark h2, section.d_dark h3, section.d_dark p {
+section.s_dark h2, section.s_dark h3, section.s_dark p {
   color: #fff;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
 }
 section h2 {
   color: #003469;
@@ -324,4 +328,5 @@ form .button_wrap {
   background-repeat: repeat-x;
   background-attachment: fixed;
   min-height: 500px;
+  background-size: cover;
 }
