@@ -320,5 +320,8 @@ form .button_wrap {
 }
 
 .s_reviews {
-  background-color: #0099d2;
+  background-image: url(../img/middle_bg.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  min-height: 500px;
 }

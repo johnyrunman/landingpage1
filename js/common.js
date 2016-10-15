@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$.stellar();
+
 	function wResize() {
 		$("header").css("min-height", $(window).height())
 	};
