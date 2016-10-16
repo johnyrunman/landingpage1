@@ -12,7 +12,8 @@ $(".carousel").owlCarousel({
 			items : 1,
 			nav : true
 		}
-	}
+	},
+	navText : ""
 });
 
 	function wResize() {

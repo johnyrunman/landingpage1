@@ -23,10 +23,8 @@ section {
 }
 section.s_dark h2, section.s_dark h3, section.s_dark p {
   color: #fff;
-  font-family: "CleanvertisingLight", sans-serif;
   text-align: center;
   font-weight: normal;
-  margin: 0 0 40px 0;
 }
 section h2 {
   color: #003469;
@@ -324,16 +322,26 @@ form .button_wrap {
 }
 
 .s_reviews {
-  background-image: url(../img/middle_bg.jpg);
+  background-image: url(../img/3.jpg);
   background-repeat: repeat-x;
   background-attachment: fixed;
   min-height: 500px;
   background-size: cover;
 }
+.s_reviews h2 {
+  margin-top: 0;
+}
 
 .review_item {
   color: #fff;
   text-align: center;
+}
+.review_item p {
+  display: inline-block;
+  float: none;
+  font-size: 15px;
+  font-family: "RobotoRegular", sans-serif;
+  margin: 25px 0 0 0;
 }
 .review_item h4 {
   font-family: "Times new roman", serif;
@@ -355,4 +363,18 @@ form .button_wrap {
   height: 165px;
   border-radius: 50%;
   border: #4a4a4a solid 10px;
+}
+
+.owl-nav div {
+  width: 37px;
+  height: 140px;
+  background-image: url(../img/review_arrow.png);
+  position: absolute;
+  top: 100px;
+}
+.owl-nav div.owl-next {
+  right: 0;
+  -webkit-transform: scale(-1, 1);
+      -ms-transform: scale(-1, 1);
+          transform: scale(-1, 1);
 }
