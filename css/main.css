@@ -371,6 +371,7 @@ form .button_wrap {
   background-image: url(../img/review_arrow.png);
   position: absolute;
   top: 100px;
+  cursor: pointer;
 }
 .owl-nav div.owl-next {
   right: 0;
