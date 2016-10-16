@@ -26,7 +26,7 @@ section.s_dark h2, section.s_dark h3, section.s_dark p {
   font-family: "CleanvertisingLight", sans-serif;
   text-align: center;
   font-weight: normal;
-  margin: 0;
+  margin: 0 0 40px 0;
 }
 section h2 {
   color: #003469;
@@ -329,4 +329,30 @@ form .button_wrap {
   background-attachment: fixed;
   min-height: 500px;
   background-size: cover;
+}
+
+.review_item {
+  color: #fff;
+  text-align: center;
+}
+.review_item h4 {
+  font-family: "Times new roman", serif;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.review_item .hr {
+  height: 1px;
+  width: 80px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.review_item .image_wrap img {
+  display: inline-block;
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  border: #4a4a4a solid 10px;
 }

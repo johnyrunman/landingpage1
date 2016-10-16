@@ -5,9 +5,15 @@ $(document).ready(function() {
 		horizontalOffset: 40
 	});
 
-	$(".carousel").owlCarousel({
-		loop : true,
-	});
+$(".carousel").owlCarousel({
+	loop : true,
+	responsive : {
+		0 : {
+			items : 1,
+			nav : true
+		}
+	}
+});
 
 	function wResize() {
 		$("header").css("min-height", $(window).height())
