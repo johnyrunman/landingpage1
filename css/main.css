@@ -397,3 +397,21 @@ form .button_wrap {
 .owl-dots .owl-dot.active {
   opacity: 0.8;
 }
+
+.s_back {
+  background-image: url("../img/red_bg.jpg");
+  background-position: top center;
+  text-align: center;
+  padding: 25px 0;
+}
+.s_back h3 {
+  font-size: 26px;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 10px 0;
+}
+.s_back .button {
+  margin-top: 15px;
+}
