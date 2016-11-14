@@ -59,10 +59,7 @@ header {
 }
 
 .logo {
-  font-size: 40px;
-  font-family: "RobotoBold", sans-serif;
-  font-face: bold;
-  text-shadow: 1px 1px 0px #969696;
+  height: 100px;
 }
 
 .top_phone {
@@ -414,4 +411,13 @@ form .button_wrap {
 }
 .s_back .button {
   margin-top: 15px;
+}
+
+.head_text {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 10px;
+  color: #000;
+}
+.head_text h1 {
+  color: #000;
 }
