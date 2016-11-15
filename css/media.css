@@ -42,6 +42,26 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.head_text {
+		background: none;
+	}
+	.top_header h1 {
+		color: #fff;
+		font-size: 32px;
+		line-height: 28px;
+	}
+	.top_header h2 {
+		color: #fff;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.s_profi h3{
+		font-size: 34px;
+		line-height: 28px;
+	}
+	.s_profi {
+		padding: 25px 0 25px 0;
+	}
 
 }
 

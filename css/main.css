@@ -1,3 +1,7 @@
+a[href^=tel] {
+  color: #fff;
+}
+
 body {
   font-family: "RobotoRegular", sans-serif;
   font-weight: normal;
@@ -414,7 +418,7 @@ form .button_wrap {
 }
 
 .head_text {
-  background-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   padding: 0 10px;
   color: #003469;
 }
