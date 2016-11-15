@@ -322,14 +322,20 @@ form .button_wrap {
   appearance: none;
 }
 
-.s_reviews {
+.s_reviews.s_dark {
+  background-color: #250f11;
+  padding: 0;
+}
+
+.paralax {
+  padding: 25px;
   background-image: url(../img/33.JPG);
   background-repeat: repeat-x;
   background-attachment: fixed;
   min-height: 500px;
   background-size: cover;
 }
-.s_reviews h2 {
+.paralax h2 {
   margin-top: 0;
 }
 
