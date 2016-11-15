@@ -59,7 +59,7 @@ header {
 }
 
 .logo {
-  height: 100px;
+  height: 80px;
 }
 
 .top_phone {
@@ -287,17 +287,17 @@ label {
   font-size: 14px;
 }
 
-input, select {
+input, select, textarea {
+  padding-left: 10px;
   display: block;
-  line-height: 40px;
   height: 40px;
   border: 1px solid #d9d9d9;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
   width: 100%;
-  text-indent: 10px;
   font-size: 20px;
+  color: green;
 }
-input:focus, select:focus {
+input:focus, select:focus, textarea:focus {
   box-shadow: #67bc5c 0 0 0 3px;
   border-radius: 3px;
   border-color: #67bc5c;
@@ -414,10 +414,11 @@ form .button_wrap {
 }
 
 .head_text {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 0 10px;
-  color: #000;
+  color: #003469;
 }
 .head_text h1 {
-  color: #000;
+  color: #003469;
+  font-weight: bold;
 }

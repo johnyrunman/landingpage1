@@ -62,7 +62,7 @@ header
 	padding-bottom: 40px
 
 .logo
-	height: 100px
+	height: 80px
 
 .top_phone
 	text-align: right
@@ -252,15 +252,15 @@ label
 	color: #666666
 	font-size: 14px
 
-input, select
+input, select, textarea
+	padding-left: 10px
 	display: block
-	line-height: 40px
 	height: 40px
 	border: 1px solid #d9d9d9
 	box-shadow: 0 0 20px rgba(0,0,0,.06) inset
 	width: 100%
-	text-indent: 10px
 	font-size: 20px
+	color: green
 	&:focus
 		box-shadow: $green_color 0 0 0 3px
 		border-radius: 3px
@@ -359,8 +359,9 @@ form .button_wrap
 		margin-top: 15px
 
 .head_text
-	background-color: rgba(255,255,255,.30)
+	background-color: rgba(255,255,255,.50)
 	padding: 0 10px
-	color: #000
+	color: $blue_color
 	h1
-		color: #000
+		color: $blue_color
+		font-weight: bold
