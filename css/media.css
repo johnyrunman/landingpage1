@@ -21,11 +21,37 @@
 	.logo {
 		margin-bottom: 15px;
 	}
+	.head_text {
+		background: none;
+	}
+	.top_header {
+		margin-top: 10px;
+	}
+	.top_header h1 {
+		color: #fff;
+		font-size: 38px;
+		line-height: 34px;
+	}
+	.top_header h2 {
+		color: #fff;
+		font-size: 28px;
+		line-height: 24px;
+	}
+	.s_profi h3{
+		font-size: 48px;
+		line-height: 40px;
+	}
+	.s_profi {
+		padding: 25px 0 25px 0;
+	}
 	
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.head_text {
+		background: none;
+	}
 	.top_phone .tab_item {
 		font-size: 30px;
 	}
@@ -33,7 +59,21 @@
 		margin-top: 20px;
 	}
 	.top_header h1 {
-		line-height: 40px;
+		color: #fff;
+		font-size: 32px;
+		line-height: 28px;
+	}
+	.top_header h2 {
+		color: #fff;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.s_profi h3{
+		font-size: 34px;
+		line-height: 28px;
+	}
+	.s_profi {
+		padding: 25px 0 25px 0;
 	}
 	.button_wrap{
 		text-align: center;
