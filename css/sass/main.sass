@@ -375,13 +375,43 @@ form .button_wrap
 		font-weight: bold
 
 .s_contacts
+	text-align: center
+	.tab_content
+		padding: 0
 	h2
+		font-family: $font_clean
 		margin: 0
 		color: #000
 		vertical-align: middle
 		display: inline-block
+		height: 45px
+		line-height: 45px
+		font-size: 40px
 	.contacts_top
 		display: inline-block
 	.tabs
+		text-transform: uppercase
 		display: inline-block
 		vertical-align: middle
+		height: 45px
+		line-height: 45px
+		padding-left: 20px
+	.tab
+		float: left
+		padding: 0 60px
+		border: $red_color 5px solid
+		line-height: 38px
+		color: $red_color
+		&:first-child
+			border-radius: 3px 0 0 3px
+		&:last-child
+			border-radius: 0 3px 3px 0
+		&.active
+			background-color: $red_color
+			color: #fff
+	.tab_item
+		font-size: 18px
+.map
+	margin-top: 20px
+	min-height: 480px
+	background-color: #324ff4
