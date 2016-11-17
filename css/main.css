@@ -432,3 +432,17 @@ form .button_wrap {
   color: #003469;
   font-weight: bold;
 }
+
+.s_contacts h2 {
+  margin: 0;
+  color: #000;
+  vertical-align: middle;
+  display: inline-block;
+}
+.s_contacts .contacts_top {
+  display: inline-block;
+}
+.s_contacts .tabs {
+  display: inline-block;
+  vertical-align: middle;
+}
