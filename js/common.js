@@ -3,8 +3,7 @@ $(document).ready(function() {
 	$('.review_popup').magnificPopup({type:"image"});
 
 	$.stellar({
-		responsive: true,
-		horizontalOffset: 40
+		responsive: true
 	});
 
 $(".carousel").owlCarousel({

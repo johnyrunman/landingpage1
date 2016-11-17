@@ -14,10 +14,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.paralax {
+		background-image: url(../img/paralax_large.JPG);
+	}
 	.top_phone, .logo, .top_header h1, .top_header h2 {
 		text-align: center;
 	}
-
 	.logo {
 		margin-bottom: 15px;
 	}
@@ -49,8 +51,22 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.head_text {
-		background: none;
+	.s_reviews h2 {
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.s_reviews h4 {
+		font-size: 20px;
+		line-height: 18px;
+	}
+	.s_reviews p {
+		font-size: 12px;
+		line-height: 12px;
+
+	}
+	.s_reviews .owl-dots {
+		margin-top: 10px;
 	}
 	.top_phone .tab_item {
 		font-size: 30px;
