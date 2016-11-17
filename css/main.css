@@ -435,9 +435,10 @@ form .button_wrap {
 
 .s_contacts {
   text-align: center;
+  padding-bottom: 0;
 }
 .s_contacts .tab_content {
-  padding: 0;
+  padding: 15px 0 0 0;
 }
 .s_contacts h2 {
   font-family: "CleanvertisingLight", sans-serif;
