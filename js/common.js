@@ -37,12 +37,6 @@ $(".tabs_header .wrapper .tab").click(function() {
 	$(".tabs_header .tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
-$(".place .tab_item").not(":first").hide();
-$(".place .wrapper .tab").click(function() {
-	$(".place .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-	$(".place .tab_item").hide().eq($(this).index()).fadeIn()
-}).eq(0).addClass("active");
-
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
