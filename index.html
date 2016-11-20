@@ -13,14 +13,17 @@
 
 	<link rel="stylesheet" href="libs/fontawesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.2.min.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="libs/owlcarouselle/assets/owl.carousel.css">
 	<link rel="stylesheet" href="libs/magnific/magnific-popup.css">
+	<link rel="stylesheet" href="libs/animate/animate.min.css">
+	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
-
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
+
 	<header>
 		<div class="container">
 			<div class="row">
@@ -179,31 +182,36 @@
 							</div>
 						</div>
 						<div class="col-md-4">
-							<form id="contact">
+							<form id="contact" class="sent">
+							<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="European Auto">
+		<input type="hidden" name="admin_email" value="pyaschuk@gmail.com">
+		<input type="hidden" name="form_subject" value="Заявка с сайта">
+		<!-- END Hidden Required Fields -->
 								<h2>Зв'язатися з нами</h2>
 								<label>
 									<span>Ваше ім'я:</span>
-									<input type="text" name="name" required>
+									<input type="text" name="Имя" required>
 								</label>
 								<label>
 									<span>Ваш телефон:</span>
-									<input type="text" name="phone" required>
+									<input type="text" name="Телефон" required>
 								</label>
 								<label>
 									<span>Марка та модель:</span>
-									<input type="text" name="marka" required>
+									<input type="text" name="Марка и модель" required>
 								</label>
 								<label>
 									<span>Об'єм, потужніть та рік виробництва</span>
-									<input type="text" name="cm3" required>
+									<input type="text" name="Объем, мощность, год" required>
 								</label>
 								<label>
 									<span>Ціна автомобіля:</span>
-									<input type="text" name="price" required>
+									<input type="text" name="Цена" required>
 								</label>
 								<label>
 									<span>Додаткова інформація:</span>
-									<textarea name="info" rows="1" ></textarea>
+									<textarea name="Дополнительная информация" rows="1" ></textarea>
 								</label>
 								<div class="button_wrap">
 									<button class="button btn_green">Відправити</button>
@@ -266,8 +274,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, dolore ipsam nostrum, reiciendis inventore recusandae possimus est eveniet harum.</h3>
-					<a href="#" class="button btn_white">ОТПРАВИТЬ ЗАЯВКУ</a>
+					<h3>Консультація повністю безкоштовна, так чому ж не зв'язатися з нами?</h3>
+					<a href="#hidden_form" class="button btn_white popup_c">ЗВ'ЯЗАТИСЯ</a>
 				</div>
 			</div>
 		</div>		
@@ -297,10 +305,46 @@
 		<h2>Наш спеціаліст дасть на них відповіді</h2>
 		<h3>+38 (097) 8873939</h3>
 		<hr>
-		<p>(c) Eropean Auto 2016</p>
+		<p>(c) European Auto 2016</p>
 	</footer>
 
-	<div class="hidden"></div>
+	<div class="hidden">
+		<form id="hidden_form" class="sent">
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="European Auto">
+		<input type="hidden" name="admin_email" value="pyaschuk@gmail.com">
+		<input type="hidden" name="form_subject" value="Заявка с сайта">
+		<!-- END Hidden Required Fields -->
+			<h2>Зв'язатися з нами</h2>
+								<label>
+									<span>Ваше ім'я:</span>
+									<input type="text" name="Имя" required>
+								</label>
+								<label>
+									<span>Ваш телефон:</span>
+									<input type="text" name="Телефон" required>
+								</label>
+								<label>
+									<span>Марка та модель:</span>
+									<input type="text" name="Марка и модель" required>
+								</label>
+								<label>
+									<span>Об'єм, потужніть та рік виробництва</span>
+									<input type="text" name="Объем, мощность, год" required>
+								</label>
+								<label>
+									<span>Ціна автомобіля:</span>
+									<input type="text" name="Цена" required>
+								</label>
+								<label>
+									<span>Додаткова інформація:</span>
+									<textarea name="Дополнительная информация" rows="1" ></textarea>
+								</label>
+								<div class="button_wrap">
+									<button class="button btn_green">Відправити</button>
+								</div>
+		</form>
+	</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -308,12 +352,14 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/magnific/jquery.magnific-popup.min.js"></script>
 	<script src="libs/modernizr/modernizr.js"></script>
 	<script src="libs/stellar/jquery.stellar.min.js"></script>
 	<script src="libs/owlcarouselle/owl.carousel.min.js"></script>
-	<script src="libs/magnific/jquery.magnific-popup.min.js"></script>
-	<script src="js/common.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="script.js"></script>
+	
 
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
