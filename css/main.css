@@ -417,8 +417,6 @@ form .button_wrap {
   margin-top: 0;
   text-transform: uppercase;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.13);
-  padding: 10px 0;
 }
 .s_back .button {
   margin-top: 15px;
@@ -426,7 +424,7 @@ form .button_wrap {
 
 .head_text {
   background: rgba(255, 255, 255, 0.5);
-  padding: 0 10px;
+  padding: 5px 10px;
   color: #003469;
 }
 .head_text h1 {
@@ -455,12 +453,9 @@ form .button_wrap {
   display: inline-block;
 }
 .s_contacts .tabs {
+  margin: 0 20px;
   text-transform: uppercase;
   display: inline-block;
-  vertical-align: middle;
-  height: 45px;
-  line-height: 45px;
-  padding-left: 20px;
 }
 .s_contacts .tab {
   float: left;
@@ -469,18 +464,16 @@ form .button_wrap {
   line-height: 38px;
   color: #981818;
 }
-.s_contacts .tab:first-child {
-  border-radius: 3px 0 0 3px;
-}
-.s_contacts .tab:last-child {
-  border-radius: 0 3px 3px 0;
-}
-.s_contacts .tab.active {
-  background-color: #981818;
-  color: #fff;
-}
 .s_contacts .tab_item {
   font-size: 18px;
+  padding: 0 15px;
+}
+.s_contacts .cab {
+  border: #981818 5px solid;
+  padding: 0 15px;
+  line-height: 34px;
+  color: #981818;
+  font-weight: bold;
 }
 
 .map {
@@ -516,4 +509,8 @@ footer hr {
   max-width: 40%;
   margin: auto;
   position: relative;
+}
+
+.mail {
+  font-size: 24px;
 }

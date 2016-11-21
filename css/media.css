@@ -94,6 +94,11 @@
 	.button_wrap{
 		text-align: center;
 	}
+	footer h3 {
+		color: #003469;
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
 }
 
 /* Custom, iPhone Retina */

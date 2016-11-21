@@ -55,6 +55,5 @@ $(document).ready(function() {
 });
 
 $(window).load(function() {
-	$(".tabs_header .wrapper").animated("fadeInUp", "fadeInOut");
 	$(".profi_item").animated("fadeInLeft", "fadeOutLeft");
 });
