@@ -2,6 +2,10 @@ a[href^=tel] {
   color: #fff;
 }
 
+footer a[href^=tel] {
+  color: #003469;
+}
+
 body {
   font-family: "RobotoRegular", sans-serif;
   font-weight: normal;
@@ -506,11 +510,7 @@ footer hr {
 }
 
 #hidden_form {
-  max-width: 40%;
+  width: 320px;
   margin: auto;
   position: relative;
-}
-
-.mail {
-  font-size: 24px;
 }
